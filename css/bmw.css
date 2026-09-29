@@ -1,0 +1,27 @@
+.header {
+    margin: 0;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(11, 2, 75);
+}
+.logo{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+
+}
+.logo h1{
+    color: aliceblue;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    padding: 10px 30px;
+}
+.nav a:hover{
+    color:burlywood;
+    font-size: xx-large;
+}
