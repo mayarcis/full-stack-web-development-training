@@ -1,0 +1,110 @@
+header{
+    display:flex;
+    background-color: #853be0;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.link{
+    color: rgb(87, 4, 4);
+    font-size: 30px;    
+}
+.link a:hover{
+    color: rgb(25, 4, 87);
+    font-size: 35px;
+
+}
+.section{
+    font-size: 25px;
+    padding: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px;
+    
+
+}
+
+.our-room{   
+    background-color: rgb(218, 210, 210);
+    border: 1px solid rgb(52, 6, 143);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgb(52, 6, 143);
+    
+    
+}
+.our-room:hover{
+    transform: scale(1.1) ;
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px rgb(7, 54, 197);
+}
+.our-room h4{
+    color: rgb(52, 6, 143);
+    text-align: center;
+
+}
+.our-room img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.book-button {
+    text-align: center;
+}
+
+.book-now {
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(46, 8, 123);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center; 
+    
+}
+
+.book-now:hover{
+    border: 1px solid rgb(24, 100, 172);;
+    cursor: pointer;
+
+}
+
+
+.review { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px;
+    text-align: center;
+     margin: 10px; 
+     padding: 10px; 
+     font-size: 20px;
+}
+
+.review img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid rgb(52, 6, 143);
+
+}
+.review_one{
+    border: 1px solid rgb(76, 8, 212);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(187, 180, 180);
+    box-shadow: 5px 5px 10px rgb(52, 6, 143);
+
+}
+
