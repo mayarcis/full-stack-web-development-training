@@ -1,0 +1,80 @@
+header {
+    display: flex;
+    background-color: #675606;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.link {
+    font-size: 30px;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(87, 4, 4);
+    margin-left: 20px;
+}
+
+.link a:hover {
+    color: rgb(25, 4, 87);
+    font-size: 35px;
+}
+
+.card {
+    position: relative;
+    padding: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    
+}
+
+.container {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: #1c1c1c solid 2px;
+    background-color: #1c1c1c67;
+    font-size: 30px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+    width: 60%;
+    background-position: center;
+}
+.services{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size:large;
+    
+}
+.card-services{
+    border: 1px solid #1c1c1c;
+    margin: 10px;
+    padding: 5px;
+
+}
+.card-services button{
+    font-size: x-large;
+    background-color: #8c7614;
+    padding: 10px;
+    
+
+}
+.services h2,p{
+    color: #675606;
+
+}
