@@ -1,0 +1,50 @@
+.section-gird{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(250px,1fr));
+    gap: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.our-room-gird{   
+    border: 1px solid rgb(52, 6, 143); 
+    padding: 10px;  
+    text-align: center; 
+}
+
+.our-room-gird img{
+    width: 200px;
+}
+
+.section-two-gird{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 10px;
+    
+
+}
+.one img{
+    width: 400px;
+    height: 400px;
+}
+.two img{
+    width: 200px;
+    height: 200px;
+}
+.two {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 10px;
+    
+
+}
