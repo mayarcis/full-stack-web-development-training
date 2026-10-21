@@ -1,0 +1,122 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: rgb(176, 117, 29);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.fade-in {
+    animation: fadeIn 2s ease infinite alternate;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.slide-left {
+    animation: slideLeft 2s ease infinite alternate;
+}
+
+@keyframes slideLeft {
+    from {
+     transform: translateX(100px);
+    }
+
+    to {
+          transform: translateX(0px);
+    }}
+
+.bounce {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+   50% {
+        transform: scale(1.1);
+    }
+}
+
+.rotate {
+    animation:rotate 2s infinite;
+}
+
+@keyframes rotate {
+  to {
+        transform:rotate(360deg);
+    }
+}
+.glow{
+    animation:glow 2s infinite;
+}
+
+@keyframes glow {
+    from{
+        box-shadow: 0 0 5px orange;
+    }
+  to {
+        box-shadow: 0 0 20px red;
+    }
+}
+
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.translate:hover {
+    transform: translateX(20px);
+}
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
+.rotate:hover {
+    transform: rotate(45deg);
+}
+
+.skew:hover {
+    transform: skew(20deg);
+}
+
+.scaleX:hover {
+    transform: scaleX(-1);
+}
+
+.scaleY:hover {
+    transform: scaleY(-1);
+}
